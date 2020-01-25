@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="4clover_css.css">
+
+    <title>4CloveR</title>
+  </head>
+  <body>
+    <header class="">
+      <div id="logo" >
+        <a href="#">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+    </header>
+
+          <!---------------------左側欄------------------------>
+    <div id="leftColumn">
+      <div id="leftContent">
+        
+          <div onclick="changeLogo()" >
+            <img id="pic"  src="images/pic1.jpg" alt="goldsymphony">
+          </div>
+        
+        <div id="name">
+          <h1><a href="#">AAA</a></h1>
+        </div>
+        <div id="album">
+          <h3 >GOLD SYMPHONY</h3>
+          <span id="albumInfo">77777777777</span>
+        </div>
+        <div id="info">
+          <p>2014</p>
+          <p id="dot">◆</p>
+          <p>11首歌</p>
+        </div>
+      </div>
+    </div>
+          <!---------------------Content-------------------------->
+    <div id="content">
+      
+
+          <!--------------------歌曲列表--------------------------------->
+      <div id="songs">
+        <ul id="songList">
+          <li class="songAll" style="cursor: not-allowed;">
+            <img src="images/clover_icon.png" alt="">
+            <p>Intro-GOLD SYMPHONY</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>Next Stage</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>SHOUT & SHAKE</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>Circle</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>HANDS</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>Love</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>V.O.L</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>autumn orange</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>風に薰る夏の記憶</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>さよならの前に</p></li>
+          <li class="songAll">
+            <img src="images/clover_icon.png" alt="">
+            <p>Wake Up!</p></li>
+        </ul>
+      </div>
+            <!--------------------播放器----------------------------->
+      <div id="player">
+        <div id="player_control">
+          <div id="Btn">
+            <img id="preBtn"  class="btns" src="images/pre_icon.png" >
+            <img id="playBtn" class="btns" src="images/play_icon.png" 
+            onclick="songPlay()" >
+            <img id="nextBtn" class="btns" src="images/next_icon.png" alt="">
+            <!-- <button >123</button> -->
+          </div>
+          <br>
+          <audio id="songNow" controls="" src="" >
+            <!-- <source  src="songs/song_9.mp3" type="audio/mpeg">
+            <source  src="songs/song_4.mp3" type="audio/mpeg">
+ -->
+          </audio>
+        </div>
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="4clover_js.js"></script>
+  <script src="musicPlay.js"></script>
+
+
+  </body>
+</html>
